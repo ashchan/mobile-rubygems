@@ -1,0 +1,12 @@
+.DS_Store
+build/
+*/xcuserdata
+xcuserdata/
+*.xcworkspace/
+pkg
+build.output
+*.mode1v3
+*.pbxuser
+bin
+vendor
+.bundle

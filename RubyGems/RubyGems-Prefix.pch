@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'RubyGems' target in the 'RubyGems' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "PrettyKit.h"
+#endif
+
+static NSString *const kAppName                           = @"Pocket RubyGems";
+static NSString *const kSyncFavoritesPushNotifiction      = @"SyncFavoritesPushNotification";
+static NSString *const kFavoritesShouldReloadNotification = @"FavoritesShouldReloadNotification";
+
+#define kTintColor  [UIColor colorWithHex:0xAA0000]
