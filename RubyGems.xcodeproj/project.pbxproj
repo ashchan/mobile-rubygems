@@ -132,7 +132,6 @@
 		1A9AA5161553F9B300DC1C44 /* favorite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorite@2x.png"; sourceTree = "<group>"; };
 		1A9AA51A1553FE5F00DC1C44 /* unfavorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unfavorite.png; sourceTree = "<group>"; };
 		1A9AA51B1553FE5F00DC1C44 /* unfavorite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unfavorite@2x.png"; sourceTree = "<group>"; };
-		1AC1BBE61555298000F6ED58 /* RubyGems.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RubyGems.entitlements; sourceTree = "<group>"; };
 		1ADC62E31552511100D88394 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		1ADC62E41552511100D88394 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		1AF7916D155151C500008FC5 /* RubyGems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyGems.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -364,7 +363,6 @@
 		1AF79178155151C500008FC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AC1BBE61555298000F6ED58 /* RubyGems.entitlements */,
 				1AF79179155151C500008FC5 /* RubyGems-Info.plist */,
 				1AF7917A155151C500008FC5 /* InfoPlist.strings */,
 				1AF7917D155151C500008FC5 /* main.m */,
@@ -608,7 +606,7 @@
 		1AF79192155151C500008FC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = RubyGems/RubyGems.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/vendor\"",
@@ -631,8 +629,8 @@
 		1AF79193155151C500008FC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = RubyGems/RubyGems.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/vendor\"",
