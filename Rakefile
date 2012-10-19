@@ -14,7 +14,7 @@ task :install do
     ["https://github.com/vicpenap/PrettyKit.git", "master"],
     ["https://github.com/jdg/MBProgressHUD.git", "master"],
     ["https://github.com/samvermette/SVWebViewController.git", "master"],
-    ["git@github.com:enormego/EGOTableViewPullRefresh.git", "master"],
+    ["https://github.com/enormego/EGOTableViewPullRefresh.git", "master"],
   ].each do |lib|
     `git clone #{lib[0]} -b #{lib[1]} --recursive`
   end
